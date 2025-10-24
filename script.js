@@ -3,6 +3,7 @@ const videoCount = document.getElementById('videoCount');
 
 // قائمة الفيديوهات الموجودة مسبقًا في مجلد 'videos/'
 const videos = [
+    'videos/7.mp4',
     'videos/6.mp4',
       'videos/5.mp4',
         'videos/4.mp4',
@@ -72,3 +73,4 @@ function addVideo(src) {
 function updateCount() {
   videoCount.textContent = `عدد الفيديوهات: ${videos.length}`;
 }
+
